@@ -24,19 +24,6 @@ function reqLogger(req, res, next) {
   console.log(`${req.method} ${req.url} ${timestamp}`);
   next();
 };
-
-function validateUserId(req, res, next) {
-  next();
-};
-
-function validateUser(req, res, next) {
-  next();
-};
-
-function validatePost(req, res, next) {
-  next();
-};
-
 //error handling
 server.use((error, req, res, next) => {
   res.status(400).json({
