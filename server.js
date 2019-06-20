@@ -18,7 +18,7 @@ server.get('/', (req, res) => {
 // the next param is a function that points to the next middleware
 // calling next() will signal that middleware has finished & should call next middleware function
 
-function logger(req, res, next) {
+function methodLogger(req, res, next) {
 
 };
 
