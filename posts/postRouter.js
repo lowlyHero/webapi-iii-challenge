@@ -18,7 +18,17 @@ router.put('/:id', (req, res) => {
 
 });
 
-// custom middleware
+function validateUserId(req, res, next) {
+
+};
+
+function validateUser(req, res, next) {
+
+};
+
+function validatePost(req, res, next) {
+
+};
 
 function validatePostId(req, res, next) {
 
